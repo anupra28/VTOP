@@ -1,0 +1,247 @@
+<html>
+    <head>
+        <style>
+            *
+            {
+                margin:0;
+                padding:0;
+                box-sizing:border-box;
+            }
+            .container
+            {
+                height:100vh;
+                width:100%;
+                position:relative;
+            }
+            .navclass
+            {
+                width:100%;
+            }
+            .lowerbox
+            {
+                display:flex;
+                justify-content:left;
+                gap:4rem;
+                align-items:center;
+                background-color:rgb(169, 166, 166);
+                height:0.5rem;
+                padding:1rem;
+            }
+            .navupperbox
+            {
+                display:flex;
+                padding:0.7rem;
+                width:100%;
+                gap:1rem;
+                background-color: grey;
+            }
+            .navupperbox h1{
+                color:white;
+            }
+            .navupperbox span{
+                color:white;
+            }
+            .navupperbox img{
+                width:5rem  ;
+            }
+            .besidelogo
+            {
+                display:flex;
+                flex-direction: column;
+                justify-content:center;
+            }
+            #anchor1
+            {
+                color:black;
+                font-weight: 600;
+                font-size: 1.2rem;
+            }
+            .anchor2
+            {
+                color:white;
+                font-weight:500;
+                font-size: 1.2rem;
+            }
+            .box
+            {
+                margin:20px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+                gap:0.7rem;
+                /* height:80%; */
+            }
+            .sec1
+            {
+                display:flex;
+                flex-direction:column;
+                border-right:0.1px solid lightgrey;
+                /* padding:1rem; */
+                gap:1.5rem;
+            }
+            .bokchoi
+            {
+                display:flex;
+                
+            }
+            .data1
+            {
+                display:flex;
+                flex-direction:column;
+            }
+            .info1
+            {
+                max-width:300px;
+                color:grey;
+                margin-top:1rem;
+            }
+            .image1sec
+            {
+                display:flex;
+                flex-direction:Column;
+                border: 0.2px solid lightgrey;
+                padding:0.3rem;
+                object-fit: cover;
+                box-shadow:0px 1px 1px 1px lightgrey;
+            }
+            .image1sec span{
+                color:rgb(82, 82, 82);
+            }
+            .img1{
+                width:300px;
+                height:200px;
+            }
+            h3{
+                color:grey;
+            }
+            h2{
+                color:rgb(242, 79, 79);
+                margin-bottom:1rem;
+            }
+            .data1{
+                padding:1rem;
+            }
+            .sec2
+            {
+                display:flex;
+                flex-direction:column;
+                padding:1rem;
+                justify-content:start;
+                gap:3rem;
+            }
+            .recipes
+            {
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+                gap:1rem;
+            }
+            .recipes a{
+                max-width:10rem;
+                padding-bottom:0.7rem;
+                border-bottom:0.2px solid lightgrey;
+            }
+            .contact
+            {
+                display:flex;
+                flex-direction:column;
+                justify-content: center;
+            }
+            .contact span{
+                color:grey;
+            }
+            a
+            {
+                color:red;
+                text-decoration:none;
+            }
+            footer
+            {
+                width:100%;
+                bottom:0;
+                position:fixed;
+                display:flex;
+                justify-content:left;
+                align-items:center;
+                background-color:grey;
+                height:0.7rem;
+                padding:1rem;
+            }
+            footer span{
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navclass">
+                <div class="navupperbox">
+                    <img src="https://w7.pngwing.com/pngs/240/34/png-transparent-decoracion-de-cocinas-kitchen-cook-logo-chef-kitchen-miscellaneous-kitchen-food-thumbnail.png" alt="chefimg">
+                    <div class="besidelogo">
+                        <h1>YOKO'S KITCHEN</h1>
+                        <span>JAPANESE COOKING CLASSES</span>
+                    </div>
+                    
+                </div>
+                <div class="lowerbox">
+                <a href="#" id="anchor1">home</a>
+                <a href="#" class="anchor2">classes</a>
+                <a href="#" class="anchor2">catering</a>
+                <a href="#" class="anchor2">contact</a>
+                </div>
+                
+            </nav>
+            
+            <div class="box">
+                <section class="sec1">
+                    <div class="bokchoi">
+                        <div class="image1sec">
+                            <img src="https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k%2FPhoto%2FRecipe%20Ramp%20Up%2F2022-07-How-To-Cook-Bok-Choy%2Fbok_choy_2_of_2" alt="pic1" class="img1">
+                            <span>Bok Choi</span>
+                        </div>
+                        <div class="data1">
+                            <h3>Japanese Vegetarian</h3>
+                            <a href="#">Five week course in London</a>
+                            <p class="info1">A five week introduction to traditional Japanese vegetarian meals, teaching you a selection of rice and noodle dishes</p>
+                        </div>
+                    </div>
+                    <div class="bokchoi">
+                        <div class="image1sec">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQucF07mckOUlTT-UMPMeuCDMbepukm6atQNQ&usqp=CAU" alt="pic2" class="img1">
+                            <span>Teriyaki Sauce</span>
+                        </div>
+                        <div class="data1">
+                            <h3>Sauces Masterclass</h3>
+                            <a href="#">One day workshop</a>
+                            <p class="info1">An intensive one-day course looking at how to create the most delicious sauces for use in a range of Japanese cookery.</p>
+                        </div>
+                    </div>
+                </section>
+                <div class="sec2">
+                    <div class="recipes">
+                    <h2>Popular Recipes</h2>
+                    <!-- <li> -->
+                    <a href="#">Yakitori(grilled chicken)</a>
+                    <a href="#">Tsukune(minced chicken patties)</a>
+                    <a href="#">Okonomiyaki(savory pancakes)</a>
+                    <a href="#">Mizutaki(chicken stew)</a>
+                    <!-- </li>  -->
+                    </div>
+                    
+                    
+                    <div class="contact">
+                        <h2>Contact</h2>
+                        <span>2011 Yoko's Kitchen</span>
+                        <span>27 Redchurch Street</span>
+                        <span>Shoreditch</span>
+                        <span>London E2 7DP</span>
+                    </div>
+                </div>
+                
+            </div>
+            <footer>
+                <span> &copy 2011 Yoko's Kitchen</span>
+            </footer>
+        </div>
+    </body>
+</html>
